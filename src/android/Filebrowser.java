@@ -109,7 +109,7 @@ public class Filebrowser extends CordovaPlugin {
                 PluginResult result = new PluginResult(PluginResult.Status.OK, jsonArray);
                 callback.sendPluginResult(result);
             } else {
-                PluginResult result = new PluginResult(PluginResult.Status.ERROR, "Error selecting file");
+                PluginResult result = new PluginResult(PluginResult.Status.OK, new JSONArray());
                 callback.sendPluginResult(result);
             }
         }
