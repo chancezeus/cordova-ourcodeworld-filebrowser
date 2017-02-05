@@ -9,7 +9,7 @@ module.exports = {
 
             cordova.exec(function(files){
                 if(typeof(successCallback) == "function"){
-                    successCallback(JSON.parse(files));
+                    successCallback(files);
                 }
             }, errorCallback, "Filebrowser", "showPicker", [{
                 "start_directory": startupPath
@@ -22,7 +22,7 @@ module.exports = {
 
             cordova.exec(function(files){
                 if(typeof(successCallback) == "function"){
-                    successCallback(JSON.parse(files));
+                    successCallback(files);
                 }
             }, errorCallback, "Filebrowser", "showMultiFilepicker", [{
                 "start_directory": startupPath
@@ -37,7 +37,7 @@ module.exports = {
 
             cordova.exec(function(files){
                 if(typeof(successCallback) == "function"){
-                    successCallback(JSON.parse(files));
+                    successCallback(files);
                 }
             }, errorCallback, "Filebrowser", "showFolderpicker", [{
                 "start_directory": startupPath
@@ -50,7 +50,7 @@ module.exports = {
 
             cordova.exec(function(files){
                 if(typeof(successCallback) == "function"){
-                    successCallback(JSON.parse(files));
+                    successCallback(files);
                 }
             }, errorCallback, "Filebrowser", "showMultiFolderpicker", [{
                 "start_directory": startupPath
@@ -64,7 +64,7 @@ module.exports = {
 
         cordova.exec(function(files){
             if(typeof(successCallback) == "function"){
-                successCallback(JSON.parse(files));
+                successCallback(files);
             }
         }, errorCallback, "Filebrowser", "showMixedPicker", [{
             "start_directory": startupPath
@@ -77,7 +77,7 @@ module.exports = {
 
         cordova.exec(function(files){
             if(typeof(successCallback) == "function"){
-                successCallback(JSON.parse(files));
+                successCallback(files);
             }
         }, errorCallback, "Filebrowser", "showCreatefile", [{
             "start_directory": startupPath
