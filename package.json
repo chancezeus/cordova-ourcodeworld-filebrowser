@@ -22,8 +22,8 @@
       "version": ">=3.4.0"
     }
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Mark van Beek <mark@appelit.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chancezeus/cordova-ourcodeworld-filebrowser/issues"
   },
