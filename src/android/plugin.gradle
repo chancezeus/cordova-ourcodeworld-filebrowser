@@ -4,10 +4,11 @@ repositories {
 
 dependencies {
     compile 'com.nononsenseapps:filepicker:4.1.0+'
-//set additional requirements to be 26+ (to solve conflicts) ==> TODO find better solution
+//set additional requirements to 26+ to solve conflicts ==> TODO find better solution
     compile 'com.android.support:appcompat-v7:26.0.0+'
     compile 'com.android.support:support-v4:26.0.0+'
     compile 'com.android.support:recyclerview-v7:26.0.0+'
     compile 'com.android.support:cardview-v7:26.0.0+'
+//facebook plugin requirement ==> set to 26+ to solve conflicts ==> TODO find better solution
     compile 'com.android.support:customtabs:26.0.0+'
 }
